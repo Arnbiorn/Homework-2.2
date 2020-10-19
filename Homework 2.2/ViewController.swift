@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         changeLabelValues()
     }
     
-    func colorChanges() {
+    private func colorChanges() {
         coloredView.backgroundColor = .init(
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
@@ -35,16 +35,17 @@ class ViewController: UIViewController {
         )
     }
     
-    func changeLabelValues() {
+    private func changeLabelValues() {
         redValueLabel.text = String(round(100 * Double(redSlider.value)) / 100)
         greenValueLabel.text = String(round(100 * Double(greenSlider.value)) / 100)
         blueValueLabel.text = String(round(100 * Double(blueSlider.value)) / 100)
     }
     
-    @IBAction func recolorSlider() {
+    @IBAction func recolorSlider(_ sender: UISlider) {
         colorChanges()
         changeLabelValues()
     }
+    
     
     
 }
