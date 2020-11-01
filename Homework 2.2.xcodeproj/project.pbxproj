@@ -56,15 +56,47 @@
 		49B52B41253C6F5400F8EACF /* Homework 2.2 */ = {
 			isa = PBXGroup;
 			children = (
-				49B52B42253C6F5400F8EACF /* AppDelegate.swift */,
-				49B52B44253C6F5400F8EACF /* SceneDelegate.swift */,
-				49B52B46253C6F5400F8EACF /* ViewController.swift */,
-				49B52B48253C6F5400F8EACF /* Main.storyboard */,
-				49B52B4B253C6F5600F8EACF /* Assets.xcassets */,
-				49B52B4D253C6F5600F8EACF /* LaunchScreen.storyboard */,
-				49B52B50253C6F5600F8EACF /* Info.plist */,
+				49D700DC254F4082008A7712 /* Storyboards */,
+				49D700DB254F4071008A7712 /* View Controllers */,
+				49D700DA254F405E008A7712 /* Supporting files */,
+				49D700D9254F403F008A7712 /* Resourses */,
 			);
 			path = "Homework 2.2";
+			sourceTree = "<group>";
+		};
+		49D700D9254F403F008A7712 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				49B52B4B253C6F5600F8EACF /* Assets.xcassets */,
+			);
+			name = Resourses;
+			sourceTree = "<group>";
+		};
+		49D700DA254F405E008A7712 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				49B52B42253C6F5400F8EACF /* AppDelegate.swift */,
+				49B52B44253C6F5400F8EACF /* SceneDelegate.swift */,
+				49B52B50253C6F5600F8EACF /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		49D700DB254F4071008A7712 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49B52B46253C6F5400F8EACF /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		49D700DC254F4082008A7712 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				49B52B48253C6F5400F8EACF /* Main.storyboard */,
+				49B52B4D253C6F5600F8EACF /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA6C9Y7864;
-				INFOPLIST_FILE = "Homework 2.2/Info.plist";
+				INFOPLIST_FILE = "Homework 2.2/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA6C9Y7864;
-				INFOPLIST_FILE = "Homework 2.2/Info.plist";
+				INFOPLIST_FILE = "Homework 2.2/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
